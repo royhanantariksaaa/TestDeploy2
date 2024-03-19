@@ -15,5 +15,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: 22
           script: |
-            cd ~/apps/testdeploy2
-            git pull origin main
+            cd ~/apps/TestDeploy2
+            git pull origin master

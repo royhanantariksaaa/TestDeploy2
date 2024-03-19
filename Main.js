@@ -1,2 +1,8 @@
-console.log('Main.js')
-console.log("fee fii foh fum, What beanstalk did you come from?")
+const Product = require('./Product');
+
+function Main() {
+    const product = new Product();
+    // product.doSomething();
+}
+
+Main();
